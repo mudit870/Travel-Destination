@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Web Dev Intern Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created a Travel Booking Website with the following features:
+● 3 travel destinations
+● On detail page of each destination, list 5 activities
+● On clicking on "Book Ticket", customer needs to fill up details like check-in date, check-out date, number of travellers, number of childrens.
+● After clicking on "Confirm Booking",pop-up confirmation message to the customer
 
-## Available Scripts
+## Technology Used
 
-In the project directory, you can run:
+● HTML
 
-### `npm start`
+● CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+● Javascript
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+● ReactJS
 
-### `npm test`
+  
+## How to use?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+●  Install git on your machine
 
-### `npm run build`
+●  Clone our repository by running the command git clone https://github.com/mudit870/Travel-Destination.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+●  And then run following two commands
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ●  npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ●  npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Capture1](https://user-images.githubusercontent.com/84176287/133494441-43607a8e-537d-4705-9541-e2c2c4d97bf1.JPG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+_____________________________________________________________________________________________________________________________________________________________________
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Capture2](https://user-images.githubusercontent.com/84176287/133494456-8f81e098-a01f-41df-9371-f1c976af8732.JPG)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_____________________________________________________________________________________________________________________________________________________________________
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Capture3](https://user-images.githubusercontent.com/84176287/133494476-0c420354-ad37-41f1-b391-1f0fc5ddb3b7.JPG)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
