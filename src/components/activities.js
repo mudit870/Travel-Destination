@@ -2,10 +2,12 @@ import React from 'react'
 import "./activities.css"
 
 
-function activities(){
+function Activities(props){
+
     return (
         <div className="activityBox">
-            <h1 className="activity">Major activities in <u>Maldives</u> </h1> {/*name {name} is equal to destination places*/}
+            <h1 className="activity">Major activities in {props.activityStatus.toUpperCase()}</h1>
+            {props.activityStatus === "maldives"?
             <div className="travel maldives">
                 <div className="activity1">
                     <img src="https://images.thrillophilia.com/image/upload/s--0qZhwKg9--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/364/170/original/1608538862_shutterstock_558396214.jpg.jpg" alt="scuba dive"></img>
@@ -27,7 +29,7 @@ function activities(){
                     <img src="https://images.thrillophilia.com/image/upload/s--f6HLQO__--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/062/237/original/1596116175_shutterstock_563557402.jpg.jpg" alt="scuba dive"></img>
                     <p>Fly Boarding</p>
                 </div>
-            </div>
+            </div>: props.activityStatus === "himachal"?
             <div className="travel himachal">
                 <div className="activity1">
                     <img src="https://www.tourmyindia.com/states/himachal/images/trekking-in-himachal1.jpg" alt="scuba dive"></img>
@@ -49,7 +51,7 @@ function activities(){
                     <img src="https://www.tourmyindia.com/states/himachal/images/mountaineering-rock-climbing-himachal.jpg" alt="scuba dive"></img>
                     <p>Rock Climbing</p>
                 </div>
-            </div>
+            </div>: 
             <div className="travel jaipur">
                 <div className="activity1">
                     <img src="https://images.thrillophilia.com/image/upload/s--LbZ9etcP--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/052/800/original/1473508518_4287799283_560e49ffbe_b.jpg.jpg" alt="scuba dive"></img>
@@ -72,9 +74,10 @@ function activities(){
                     <p>Hot Air Balloon Ride</p>
                 </div>
             </div>
+            }
             <a href="/"><button className="closeActivity">Back to Home Page</button></a>
         </div>
     )
 }
 
-export default activities
+export default Activities

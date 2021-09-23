@@ -1,8 +1,17 @@
 import React from 'react'
+import { useHistory } from 'react-router';
 import "./home.css"
 
 
-function home(){
+function Home(props){
+
+    let history = useHistory()
+
+    function change(location){
+        props.setActivityStatus(location) 
+        history.push("/activities")
+    }
+
     return (
        
         <div className="destination">
@@ -15,7 +24,7 @@ function home(){
                     <h2 className="destinationName">Maldives</h2>
                     <p className="destinationAbout">"This tropical nation in the Indian Ocean is made up of more than 1,000 coral islands. It’s home to some of the world’s most luxurious hotel resorts, with white sandy beaches, underwater villas and restaurants and bright blue waters."</p>
                     <div className="destinationBtn">
-                        <a href="/activities"><button className="seeDetails">Details</button></a>
+                        <button className="seeDetails" onClick={() =>{change("maldives")}}>Details</button>
                         <a href="/form"><button className="bookTickets">Book Tickets</button></a>
                     </div>
                 </div>
@@ -28,7 +37,7 @@ function home(){
                     <h2 className="destinationName">Himachal Pradesh</h2>
                     <p className="destinationAbout">"Himachal Pradesh is famous for its beautiful views as well as adventure activities, such as treks, paragliding, skiing and so much more. It is a popular holiday destination with people of all age groups, be it young friends, honeymooners, families and adventurers."</p>
                     <div className="destinationBtn">
-                        <a href="/activities"><button className="seeDetails">Details</button></a>
+                        <button className="seeDetails" onClick={(event) =>{change("himachal")}}>Details</button>
                         <a href="/form"><button className="bookTickets">Book Tickets</button></a>
                     </div>
                 </div>
@@ -40,7 +49,7 @@ function home(){
                 <div className="destinationInfo">
                     <h2 className="destinationName">Jaipur</h2>
                     <p className="destinationAbout">"If you take one look at the glorious stucco buildings that line Jaipur's wide streets, you'll understand why this is nicknamed "The Pink City." Spend your days exploring City Palace, Hawa Mahal, Amber and Jaigarh forts and head to one of the bazaars."</p>
-                        <a href="/activities"><button className="seeDetails">Details</button></a>
+                        <button className="seeDetails" onClick={(event) =>{change("jaipur")}}>Details</button>
                         <a href="/form"><button className="bookTickets">Book Tickets</button></a>
                 </div>
             </div>
@@ -48,4 +57,4 @@ function home(){
     );
 }
 
-export default home
+export default Home
