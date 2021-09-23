@@ -1,9 +1,13 @@
 # Web Dev Intern Assignment
 
 Created a Travel Booking Website with the following features:
+
 ● 3 travel destinations
+
 ● On detail page of each destination, list 5 activities
+
 ● On clicking on "Book Ticket", customer needs to fill up details like check-in date, check-out date, number of travellers, number of childrens.
+
 ● After clicking on "Confirm Booking",pop-up confirmation message to the customer
 
 ## Technology Used
