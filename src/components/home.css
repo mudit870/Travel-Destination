@@ -1,0 +1,87 @@
+.destination{
+    height: auto;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    text-align: center;
+    margin: 20px 0 5px 0;
+    font-size: 40px;
+    color: rgb(42, 110, 211);
+}
+.destinationBox{
+    width: 850px;
+    height: 220px;
+    border: 1px solid #6e9ee0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px #8aade9;
+    margin: 40px auto;
+    padding: 0;
+}
+.destinationImg{
+    height: 201px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.destinationImg img{
+    height: 220px;
+    width: 220px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; 
+}
+.destinationInfo{
+    width: 610px;
+    height: auto;
+    float: right;
+}
+.destinationName{
+    font-size: 30px;
+    margin-bottom: -5px;
+    padding-top: 5px;
+}
+.destinationAbout{
+    margin-right: 10px;
+}
+.destinationBtn{
+    margin: auto;
+}
+.seeDetails{
+    width: 180px;
+    height: 35px;
+    border: none;
+    margin: 10px 20px 10px 180px;
+    color: #fff;
+    font-size: 17px;
+    background: #36a2eb;
+    cursor: pointer;
+    
+}
+.seeDetails:hover{
+    background: #135e91;
+}
+.seeDetails a{
+    text-decoration: none;
+    color: #fff;
+}
+.bookTickets{
+    width: 180px;
+    height: 35px;
+    border: none;
+    margin: 10px 20px;
+    color: #fff;
+    font-size: 17px;
+    background: #36a2eb;
+    cursor: pointer;
+    float: right;
+}
+.bookTickets:hover{
+    background: #135e91;
+}
+.lastBox{
+    margin-bottom: 40px;
+}
+.bookTickets a{
+    text-decoration: none;
+    color: #fff;
+}

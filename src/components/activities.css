@@ -1,0 +1,72 @@
+.activity{
+    text-align: center;
+}
+.travel{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin: auto;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: start;
+}
+.travel div{
+    width: 300px;
+    height: 300px;
+    margin: 45px;
+}
+.travel div img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.travel div p{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-top: -4px;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.activity1 p{
+    background: rgb(173, 171, 6);
+}
+.activity2 p{
+    background: rgb(18, 132, 167);
+}
+.activity3 p{
+    background: rgb(177, 39, 29);
+}
+.activity4 p{
+    background: rgb(28, 54, 172);
+}
+.activity5 p{
+    background: rgb(155, 31, 145);
+}
+.activity4{
+    margin-left:300px;
+}
+.closeActivity{
+    margin: 30px 50%;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    background: #0023ebb0;
+}
+.closeActivity:hover{
+    cursor: pointer;
+    background: #2d6bb3;
+}
+.closeActivity a{
+    text-decoration: none;
+    color: #fff;
+}

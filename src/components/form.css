@@ -1,0 +1,57 @@
+.formInfo{
+    height: auto;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #757e8b;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px #3d4553;
+    font-family: "Open Sans", sans-serif;
+    margin: 50px auto;
+}
+.formInfo h2{
+    text-align: center;
+    font-size: 30px;
+}
+.formInfo label{
+    font-weight: bolder;
+    height: 40px;
+}
+.checkIn input{
+    margin: 10px 10px 10px 100px;
+    height: 25px;
+    width: 185px;
+    padding-left: 10px;
+}
+.checkOut input{
+    margin: 10px 10px 10px 87px;
+    height: 25px;
+    width: 185px;
+    padding-left: 10px;
+}
+
+.numTravellers input{
+    margin: 10px 10px 10px 44px;
+    height: 25px;
+    width: 180px;
+    padding-left: 10px;
+}
+.numChildren input{
+    margin: 10px 10px 10px 45px;
+    height: 25px;
+    width: 180px;
+    padding-left: 10px;
+}
+.confirmBook{   
+    margin: 20px 100px;
+    border: none;
+    color: #fff;
+    background: #195fd6;
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.confirmBook:hover{
+    background: #062a68;
+}
